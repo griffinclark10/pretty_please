@@ -10,7 +10,7 @@ const cardsData = [
 ];
 
 const Card = ({ title, bgColor }) => (
-  <div className={`flex-none w-72 h-40 ${bgColor} m-2 rounded shadow-lg flex justify-center items-center`}>
+  <div className={`flex-none w-40 md:w-72 h-40 ${bgColor} m-2 rounded shadow-lg flex justify-center items-center`}>
     <h3 className="text-lg font-semibold">{title}</h3>
   </div>
 );
